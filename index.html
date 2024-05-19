@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    include(" The name of the PHP file ");
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="#home">osamu</a>
+    </div>
+    <hr class="rounded"></hr>
+      <div class="wrapper">
+        <?php
+          require_once "bdconnect.php";
+          while ($row = mysqli_fetch_assoc($result)){ 
+          $ID = $row['id'];
+          $Name = $row['name'];
+          $Desc = $row['description'];
+          $Prod = $row['producer'];
+          $Year = $row['year'];
+          $Link = $row['link']; 
+          echo '<div" >
+            <table>
+              <tr>
+                  <td>'$Name . '</td>
+                  <td>' $Link . '</td>
+              </tr>
+          </table>
+      </div>';
+      }
+?>
+      </div>
+     <hr class="rounded"></hr>
+      <h1 class="title">Hello World! </h1>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+      <a id="home"><p>Movie list</p></a>
+    <hr class="rounded"></hr>
+    <table>
+      <tr>
+        <th>Movie ID</th>
+        <th>Movie name</th>
+        <th>Annotation</th>
+        <th>Producer</th>
+        <th>Release date</th>
+      </tr>
+      <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+       <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+    </table>
+    
+  </body>
+</html>
+
+https://m.media-amazon.com
+
+https://www.tallengestore.com
+
+
