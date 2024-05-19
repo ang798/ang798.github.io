@@ -54,10 +54,11 @@ h1 {
 }
 
 .wrapper {
+  padding: 2em;
   align-items: stretch;
   height: 300px;
   display: flex;
-  gap: 20px;
+  gap: 1em;
 }
 
 .box {
