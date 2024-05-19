@@ -56,7 +56,7 @@ h1 {
 .wrapper {
   padding: 6em;
   align-items: stretch;
-  height: 512px;
+  height: 720px;
   display: flex;
   gap: 3em;
 }
@@ -66,8 +66,8 @@ h1 {
 }
 
 .box img {
-  width: 400px;
-  height: 512px;
+  width: 576px;
+  height: 720px;
 }
 
 .box1 img {
