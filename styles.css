@@ -1,5 +1,6 @@
 body{
   padding: 1px;
+  
 }
 }
 .title {
@@ -38,6 +39,7 @@ h1 {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: Monospace;
 }
 
 
@@ -49,4 +51,31 @@ h1 {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+
+.wrapper {
+  height: 200px;
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  background-color: grey;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+}
+
+.box1 img {
+  object-fit: cover;
+}
+
+.box2 img {
+  object-fit: cover;
+}
+
+.box3 img {
+  object-fit: cover;
 }
